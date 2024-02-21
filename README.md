@@ -1,5 +1,5 @@
 # BackEnd
 
-This repo contains all the backend code for our GHack challeng 
+This repo contains all the backend code for our GHack challenge
 
 #SheC18
