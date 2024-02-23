@@ -22,6 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('api/', include('gmailApp.urls')),
     path('api/', include('accountsApp.urls')),
+    path('api/', include('gmailApp.urls')),
+
 
     #login
     path('api/token/', TokenObtainPairView.as_view(),name='token_obtain_pair'),
