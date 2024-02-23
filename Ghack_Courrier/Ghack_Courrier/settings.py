@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'gmailApp',
     'accountsApp',
+    'fbchatApp',
     'rest_framework_simplejwt', 
     'rest_framework',
     'corsheaders',
@@ -159,3 +160,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '4b32-105-96-250-21.ngrok-free.app']
+
